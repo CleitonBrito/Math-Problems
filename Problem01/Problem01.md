@@ -47,3 +47,37 @@ Knowing the values, we can calculate the interval:
 ````
 The interval value is 30px.<br />
 Great! We find the interval value between of the rectangles, and interval between the area edge.
+
+<img src="https://github.com/CleitonBrito/Math/blob/master/Problem01/Pictures/Problem01-ValueInterval.png">
+
+Now, we will find values of the positions of the rectangles to distribute equally in the area. <br />
+<b>Obs: It will be taken into account the left edge of the rectangle to position</b>
+
+For this, we will used the second formula:
+
+<img src="https://github.com/CleitonBrito/Math/blob/master/Problem01/Pictures/Problem01-Formula02.png">
+
+Variables     | Description
+--------------|-----------------------
+<b>Pos</b>    | Result of the item position
+<b>x</b>      | Rectangle index
+<b>In</b>     | Result of the interval
+<b>wi</b>     | Rectangles width
+
+Rules:
+ - The variable <b>x</b> needs starting at 0 and increment until <b>i - 1</b>
+ - The variable <b>In</b> need to be >= 0
+ 
+ See:
+ 
+  x  | Apply formula                   | Position
+  ---|---------------------------------|------------
+  0  | 30 + ( <b>0</b> * ( 80 + 30 ))  | 30px
+  1  | 30 + ( <b>1</b> * ( 80 + 30 ))  | 140px
+  2  | 30 + ( <b>2</b> * ( 80 + 30 ))  | 250px
+  3  | 30 + ( <b>3</b> * ( 80 + 30 ))  | 360px
+  4  | 30 + ( <b>4</b> * ( 80 + 30 ))  | 470px
+  5  | 30 + ( <b>5</b> * ( 80 + 30 ))  | 580px
+  6  | 30 + ( <b>6</b> * ( 80 + 30 ))  | 690px
+  
+  <img src="https://github.com/CleitonBrito/Math/blob/master/Problem01/Pictures/Problem01-PositionsValues.png">
