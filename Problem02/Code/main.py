@@ -29,7 +29,7 @@ def main():
 
     pos = int(input("Qual posição você deseja encontar? "))
 
-    print("Elemento: "+el[pos % 5] )
+    print("Elemento: "+el[pos % el_qtd] )
 
 main()
 
